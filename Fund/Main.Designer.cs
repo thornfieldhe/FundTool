@@ -40,17 +40,6 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.symbolDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.snameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pernavDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalnavDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.threemonthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sixmonthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.oneyearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.formyearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.formstartDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.zjzfeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fundBaseInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -65,10 +54,8 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.jjjz = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fbrq = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hisValueBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.button3 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -88,10 +75,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.symbolXDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.symbolYDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.valueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.correlationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -108,38 +91,24 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView8 = new System.Windows.Forms.DataGridView();
-            this.symbolDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Average = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Stdevpa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UpRate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DownRate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ratioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sharpeRatioBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.button8 = new System.Windows.Forms.Button();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.textBox29 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.dataGridView10 = new System.Windows.Forms.DataGridView();
-            this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lowDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Open = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Close = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.High = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Low = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.volumeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stockBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView9 = new System.Windows.Forms.DataGridView();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -152,32 +121,74 @@
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.dataGridView11 = new System.Windows.Forms.DataGridView();
+            this.symbolDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.snameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pernavDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalnavDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.threemonthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sixmonthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.oneyearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.formyearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.formstartDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.zjzfeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fundBaseInfoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hisValueBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.symbolXDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.symbolYDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.valueDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.correlationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.symbolDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ratioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sharpeRatioBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lowDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.volumeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stockBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.codeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.valueDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rsiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sharpeRatioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.computerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fundBaseInfoBindingSource)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hisValueBindingSource)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.correlationBindingSource)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sharpeRatioBindingSource1)).BeginInit();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fundBaseInfoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hisValueBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correlationBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sharpeRatioBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rsiBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sharpeRatioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.computerBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -190,6 +201,7 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -301,81 +313,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1109, 465);
             this.dataGridView1.TabIndex = 10;
             this.dataGridView1.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView4_RowPostPaint);
-            // 
-            // symbolDataGridViewTextBoxColumn
-            // 
-            this.symbolDataGridViewTextBoxColumn.DataPropertyName = "symbol";
-            this.symbolDataGridViewTextBoxColumn.HeaderText = "基金代码";
-            this.symbolDataGridViewTextBoxColumn.Name = "symbolDataGridViewTextBoxColumn";
-            this.symbolDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // snameDataGridViewTextBoxColumn
-            // 
-            this.snameDataGridViewTextBoxColumn.DataPropertyName = "sname";
-            this.snameDataGridViewTextBoxColumn.HeaderText = "基金名称";
-            this.snameDataGridViewTextBoxColumn.Name = "snameDataGridViewTextBoxColumn";
-            this.snameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.snameDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // pernavDataGridViewTextBoxColumn
-            // 
-            this.pernavDataGridViewTextBoxColumn.DataPropertyName = "per_nav";
-            this.pernavDataGridViewTextBoxColumn.HeaderText = "单位净值";
-            this.pernavDataGridViewTextBoxColumn.Name = "pernavDataGridViewTextBoxColumn";
-            this.pernavDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // totalnavDataGridViewTextBoxColumn
-            // 
-            this.totalnavDataGridViewTextBoxColumn.DataPropertyName = "total_nav";
-            this.totalnavDataGridViewTextBoxColumn.HeaderText = "累计净值";
-            this.totalnavDataGridViewTextBoxColumn.Name = "totalnavDataGridViewTextBoxColumn";
-            this.totalnavDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // threemonthDataGridViewTextBoxColumn
-            // 
-            this.threemonthDataGridViewTextBoxColumn.DataPropertyName = "three_month";
-            this.threemonthDataGridViewTextBoxColumn.HeaderText = "近三个月(%)";
-            this.threemonthDataGridViewTextBoxColumn.Name = "threemonthDataGridViewTextBoxColumn";
-            this.threemonthDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sixmonthDataGridViewTextBoxColumn
-            // 
-            this.sixmonthDataGridViewTextBoxColumn.DataPropertyName = "six_month";
-            this.sixmonthDataGridViewTextBoxColumn.HeaderText = "近六个月(%)";
-            this.sixmonthDataGridViewTextBoxColumn.Name = "sixmonthDataGridViewTextBoxColumn";
-            this.sixmonthDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // oneyearDataGridViewTextBoxColumn
-            // 
-            this.oneyearDataGridViewTextBoxColumn.DataPropertyName = "one_year";
-            this.oneyearDataGridViewTextBoxColumn.HeaderText = "近一年(%)";
-            this.oneyearDataGridViewTextBoxColumn.Name = "oneyearDataGridViewTextBoxColumn";
-            this.oneyearDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // formyearDataGridViewTextBoxColumn
-            // 
-            this.formyearDataGridViewTextBoxColumn.DataPropertyName = "form_year";
-            this.formyearDataGridViewTextBoxColumn.HeaderText = "今年以来(%)";
-            this.formyearDataGridViewTextBoxColumn.Name = "formyearDataGridViewTextBoxColumn";
-            this.formyearDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // formstartDataGridViewTextBoxColumn
-            // 
-            this.formstartDataGridViewTextBoxColumn.DataPropertyName = "form_start";
-            this.formstartDataGridViewTextBoxColumn.HeaderText = "成立以来(%)";
-            this.formstartDataGridViewTextBoxColumn.Name = "formstartDataGridViewTextBoxColumn";
-            this.formstartDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // zjzfeDataGridViewTextBoxColumn
-            // 
-            this.zjzfeDataGridViewTextBoxColumn.DataPropertyName = "zjzfe";
-            this.zjzfeDataGridViewTextBoxColumn.HeaderText = "基金规模";
-            this.zjzfeDataGridViewTextBoxColumn.Name = "zjzfeDataGridViewTextBoxColumn";
-            this.zjzfeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fundBaseInfoBindingSource
-            // 
-            this.fundBaseInfoBindingSource.DataSource = typeof(Fund.FundBaseInfoView);
             // 
             // button1
             // 
@@ -534,13 +471,6 @@
             this.dataGridView2.TabIndex = 12;
             this.dataGridView2.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView4_RowPostPaint);
             // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "symbol";
-            this.dataGridViewTextBoxColumn1.HeaderText = "基金代码";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
             // jjjz
             // 
             this.jjjz.DataPropertyName = "jjjz";
@@ -554,10 +484,6 @@
             this.fbrq.HeaderText = "日期";
             this.fbrq.Name = "fbrq";
             this.fbrq.ReadOnly = true;
-            // 
-            // hisValueBindingSource
-            // 
-            this.hisValueBindingSource.DataSource = typeof(Fund.HisValue);
             // 
             // button3
             // 
@@ -764,31 +690,6 @@
             this.dataGridView4.TabIndex = 26;
             this.dataGridView4.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView4_RowPostPaint);
             // 
-            // symbolXDataGridViewTextBoxColumn
-            // 
-            this.symbolXDataGridViewTextBoxColumn.DataPropertyName = "symbolX";
-            this.symbolXDataGridViewTextBoxColumn.HeaderText = "基金A";
-            this.symbolXDataGridViewTextBoxColumn.Name = "symbolXDataGridViewTextBoxColumn";
-            this.symbolXDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // symbolYDataGridViewTextBoxColumn
-            // 
-            this.symbolYDataGridViewTextBoxColumn.DataPropertyName = "symbolY";
-            this.symbolYDataGridViewTextBoxColumn.HeaderText = "基金B";
-            this.symbolYDataGridViewTextBoxColumn.Name = "symbolYDataGridViewTextBoxColumn";
-            this.symbolYDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // valueDataGridViewTextBoxColumn
-            // 
-            this.valueDataGridViewTextBoxColumn.DataPropertyName = "value";
-            this.valueDataGridViewTextBoxColumn.HeaderText = "相关性";
-            this.valueDataGridViewTextBoxColumn.Name = "valueDataGridViewTextBoxColumn";
-            this.valueDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // correlationBindingSource
-            // 
-            this.correlationBindingSource.DataSource = typeof(Fund.Correlation);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -906,6 +807,7 @@
             // 
             this.dataGridView7.AllowUserToAddRows = false;
             this.dataGridView7.AllowUserToDeleteRows = false;
+            this.dataGridView7.AllowUserToOrderColumns = true;
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView7.Location = new System.Drawing.Point(10, 87);
             this.dataGridView7.Name = "dataGridView7";
@@ -940,6 +842,7 @@
             // 
             this.dataGridView8.AllowUserToAddRows = false;
             this.dataGridView8.AllowUserToDeleteRows = false;
+            this.dataGridView8.AllowUserToOrderColumns = true;
             this.dataGridView8.AutoGenerateColumns = false;
             this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView8.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -957,13 +860,6 @@
             this.dataGridView8.Size = new System.Drawing.Size(647, 484);
             this.dataGridView8.TabIndex = 32;
             this.dataGridView8.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView4_RowPostPaint);
-            // 
-            // symbolDataGridViewTextBoxColumn1
-            // 
-            this.symbolDataGridViewTextBoxColumn1.DataPropertyName = "symbol";
-            this.symbolDataGridViewTextBoxColumn1.HeaderText = "编码";
-            this.symbolDataGridViewTextBoxColumn1.Name = "symbolDataGridViewTextBoxColumn1";
-            this.symbolDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // Average
             // 
@@ -992,17 +888,6 @@
             this.DownRate.HeaderText = "下限";
             this.DownRate.Name = "DownRate";
             this.DownRate.ReadOnly = true;
-            // 
-            // ratioDataGridViewTextBoxColumn
-            // 
-            this.ratioDataGridViewTextBoxColumn.DataPropertyName = "Ratio";
-            this.ratioDataGridViewTextBoxColumn.HeaderText = "夏普系数";
-            this.ratioDataGridViewTextBoxColumn.Name = "ratioDataGridViewTextBoxColumn";
-            this.ratioDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // sharpeRatioBindingSource1
-            // 
-            this.sharpeRatioBindingSource1.DataSource = typeof(Fund.SharpeRatio);
             // 
             // button8
             // 
@@ -1033,14 +918,10 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.textBox26);
+            this.tabPage6.Controls.Add(this.label17);
             this.tabPage6.Controls.Add(this.textBox29);
             this.tabPage6.Controls.Add(this.button12);
-            this.tabPage6.Controls.Add(this.textBox28);
-            this.tabPage6.Controls.Add(this.textBox27);
-            this.tabPage6.Controls.Add(this.textBox26);
-            this.tabPage6.Controls.Add(this.label19);
-            this.tabPage6.Controls.Add(this.label18);
-            this.tabPage6.Controls.Add(this.label17);
             this.tabPage6.Controls.Add(this.label16);
             this.tabPage6.Controls.Add(this.textBox25);
             this.tabPage6.Controls.Add(this.button11);
@@ -1060,75 +941,20 @@
             // 
             // textBox29
             // 
-            this.textBox29.Location = new System.Drawing.Point(306, 59);
+            this.textBox29.Location = new System.Drawing.Point(232, 59);
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(80, 21);
             this.textBox29.TabIndex = 29;
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(229, 57);
+            this.button12.Location = new System.Drawing.Point(328, 57);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(58, 23);
             this.button12.TabIndex = 28;
             this.button12.Text = "过滤";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(623, 86);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(504, 21);
-            this.textBox28.TabIndex = 27;
-            this.textBox28.Text = "http://web.ifzq.gtimg.cn/appstock/app/fqkline/get?_var=kline_dayqfq&param=sh{0},d" +
-    "ay,,,320,qfq&r=0.6797813916638893";
-            // 
-            // textBox27
-            // 
-            this.textBox27.Location = new System.Drawing.Point(623, 113);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(504, 21);
-            this.textBox27.TabIndex = 26;
-            this.textBox27.Text = "https://gupiao.baidu.com/api/stocks/stockdaybar?from=pc&os_ver=1&cuid=xxx&vv=100&" +
-    "format=json&stock_code=sh{0}&step=3&start=&count=160&fq_type=no&timestamp=148327" +
-    "9312842";
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(623, 140);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(504, 21);
-            this.textBox26.TabIndex = 25;
-            this.textBox26.Text = "http://hq.p5w.net/info/kline.py/data.znzDo?from=hq.p5w.net&cmd=SHHQ{0}|2016,2017," +
-    "|0.5056152125563047&crossdomain=1483284325782161&from=data.p5w.net";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(530, 116);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(59, 12);
-            this.label19.TabIndex = 24;
-            this.label19.Text = "百度API：";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(530, 143);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(83, 12);
-            this.label18.TabIndex = 23;
-            this.label18.Text = "证券之星API：";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(530, 89);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(59, 12);
-            this.label17.TabIndex = 22;
-            this.label17.Text = "腾讯API：";
             // 
             // label16
             // 
@@ -1174,34 +1000,13 @@
             this.Low,
             this.volumeDataGridViewTextBoxColumn});
             this.dataGridView10.DataSource = this.stockBindingSource;
-            this.dataGridView10.Location = new System.Drawing.Point(407, 180);
+            this.dataGridView10.Location = new System.Drawing.Point(407, 86);
             this.dataGridView10.Name = "dataGridView10";
             this.dataGridView10.ReadOnly = true;
             this.dataGridView10.RowTemplate.Height = 23;
-            this.dataGridView10.Size = new System.Drawing.Size(720, 362);
+            this.dataGridView10.Size = new System.Drawing.Size(720, 456);
             this.dataGridView10.TabIndex = 18;
             this.dataGridView10.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView4_RowPostPaint);
-            // 
-            // codeDataGridViewTextBoxColumn
-            // 
-            this.codeDataGridViewTextBoxColumn.DataPropertyName = "Code";
-            this.codeDataGridViewTextBoxColumn.HeaderText = "代码";
-            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
-            this.codeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dateDataGridViewTextBoxColumn
-            // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "日期";
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
-            this.dateDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // lowDataGridViewTextBoxColumn
-            // 
-            this.lowDataGridViewTextBoxColumn.DataPropertyName = "Low";
-            this.lowDataGridViewTextBoxColumn.HeaderText = "最低价";
-            this.lowDataGridViewTextBoxColumn.Name = "lowDataGridViewTextBoxColumn";
-            this.lowDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // Open
             // 
@@ -1231,17 +1036,6 @@
             this.Low.Name = "Low";
             this.Low.ReadOnly = true;
             // 
-            // volumeDataGridViewTextBoxColumn
-            // 
-            this.volumeDataGridViewTextBoxColumn.DataPropertyName = "Volume";
-            this.volumeDataGridViewTextBoxColumn.HeaderText = "成交量";
-            this.volumeDataGridViewTextBoxColumn.Name = "volumeDataGridViewTextBoxColumn";
-            this.volumeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // stockBindingSource
-            // 
-            this.stockBindingSource.DataSource = typeof(Fund.Stock);
-            // 
             // dataGridView9
             // 
             this.dataGridView9.AllowUserToAddRows = false;
@@ -1260,11 +1054,11 @@
             // 
             // textBox23
             // 
-            this.textBox23.Location = new System.Drawing.Point(122, 59);
+            this.textBox23.Location = new System.Drawing.Point(81, 59);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(43, 21);
             this.textBox23.TabIndex = 16;
-            this.textBox23.Text = "20";
+            this.textBox23.Text = "10";
             // 
             // label15
             // 
@@ -1341,6 +1135,300 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(130, 62);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(17, 12);
+            this.label17.TabIndex = 30;
+            this.label17.Text = "－";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(153, 59);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(43, 21);
+            this.textBox26.TabIndex = 31;
+            this.textBox26.Text = "25";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.dataGridView11);
+            this.tabPage7.Controls.Add(this.textBox30);
+            this.tabPage7.Controls.Add(this.textBox27);
+            this.tabPage7.Controls.Add(this.button13);
+            this.tabPage7.Controls.Add(this.label21);
+            this.tabPage7.Controls.Add(this.label20);
+            this.tabPage7.Controls.Add(this.label19);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1151, 560);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "【股票】RSI选股";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(852, 211);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(47, 12);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "label19";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(113, 24);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(17, 12);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "n:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(186, 24);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(41, 12);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "下限：";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(22, 19);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(84, 23);
+            this.button13.TabIndex = 4;
+            this.button13.Text = "计算RSI(n)";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(136, 21);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(30, 21);
+            this.textBox27.TabIndex = 5;
+            this.textBox27.Text = "9";
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(233, 21);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(30, 21);
+            this.textBox30.TabIndex = 7;
+            this.textBox30.Text = "20";
+            // 
+            // dataGridView11
+            // 
+            this.dataGridView11.AllowUserToAddRows = false;
+            this.dataGridView11.AllowUserToDeleteRows = false;
+            this.dataGridView11.AllowUserToOrderColumns = true;
+            this.dataGridView11.AutoGenerateColumns = false;
+            this.dataGridView11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView11.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.codeDataGridViewTextBoxColumn1,
+            this.dateDataGridViewTextBoxColumn1,
+            this.valueDataGridViewTextBoxColumn1});
+            this.dataGridView11.DataSource = this.rsiBindingSource;
+            this.dataGridView11.Location = new System.Drawing.Point(22, 61);
+            this.dataGridView11.Name = "dataGridView11";
+            this.dataGridView11.ReadOnly = true;
+            this.dataGridView11.RowTemplate.Height = 23;
+            this.dataGridView11.Size = new System.Drawing.Size(334, 491);
+            this.dataGridView11.TabIndex = 19;
+            this.dataGridView11.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dataGridView4_RowPostPaint);
+            // 
+            // symbolDataGridViewTextBoxColumn
+            // 
+            this.symbolDataGridViewTextBoxColumn.DataPropertyName = "symbol";
+            this.symbolDataGridViewTextBoxColumn.HeaderText = "基金代码";
+            this.symbolDataGridViewTextBoxColumn.Name = "symbolDataGridViewTextBoxColumn";
+            this.symbolDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // snameDataGridViewTextBoxColumn
+            // 
+            this.snameDataGridViewTextBoxColumn.DataPropertyName = "sname";
+            this.snameDataGridViewTextBoxColumn.HeaderText = "基金名称";
+            this.snameDataGridViewTextBoxColumn.Name = "snameDataGridViewTextBoxColumn";
+            this.snameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.snameDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // pernavDataGridViewTextBoxColumn
+            // 
+            this.pernavDataGridViewTextBoxColumn.DataPropertyName = "per_nav";
+            this.pernavDataGridViewTextBoxColumn.HeaderText = "单位净值";
+            this.pernavDataGridViewTextBoxColumn.Name = "pernavDataGridViewTextBoxColumn";
+            this.pernavDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // totalnavDataGridViewTextBoxColumn
+            // 
+            this.totalnavDataGridViewTextBoxColumn.DataPropertyName = "total_nav";
+            this.totalnavDataGridViewTextBoxColumn.HeaderText = "累计净值";
+            this.totalnavDataGridViewTextBoxColumn.Name = "totalnavDataGridViewTextBoxColumn";
+            this.totalnavDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // threemonthDataGridViewTextBoxColumn
+            // 
+            this.threemonthDataGridViewTextBoxColumn.DataPropertyName = "three_month";
+            this.threemonthDataGridViewTextBoxColumn.HeaderText = "近三个月(%)";
+            this.threemonthDataGridViewTextBoxColumn.Name = "threemonthDataGridViewTextBoxColumn";
+            this.threemonthDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sixmonthDataGridViewTextBoxColumn
+            // 
+            this.sixmonthDataGridViewTextBoxColumn.DataPropertyName = "six_month";
+            this.sixmonthDataGridViewTextBoxColumn.HeaderText = "近六个月(%)";
+            this.sixmonthDataGridViewTextBoxColumn.Name = "sixmonthDataGridViewTextBoxColumn";
+            this.sixmonthDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // oneyearDataGridViewTextBoxColumn
+            // 
+            this.oneyearDataGridViewTextBoxColumn.DataPropertyName = "one_year";
+            this.oneyearDataGridViewTextBoxColumn.HeaderText = "近一年(%)";
+            this.oneyearDataGridViewTextBoxColumn.Name = "oneyearDataGridViewTextBoxColumn";
+            this.oneyearDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // formyearDataGridViewTextBoxColumn
+            // 
+            this.formyearDataGridViewTextBoxColumn.DataPropertyName = "form_year";
+            this.formyearDataGridViewTextBoxColumn.HeaderText = "今年以来(%)";
+            this.formyearDataGridViewTextBoxColumn.Name = "formyearDataGridViewTextBoxColumn";
+            this.formyearDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // formstartDataGridViewTextBoxColumn
+            // 
+            this.formstartDataGridViewTextBoxColumn.DataPropertyName = "form_start";
+            this.formstartDataGridViewTextBoxColumn.HeaderText = "成立以来(%)";
+            this.formstartDataGridViewTextBoxColumn.Name = "formstartDataGridViewTextBoxColumn";
+            this.formstartDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // zjzfeDataGridViewTextBoxColumn
+            // 
+            this.zjzfeDataGridViewTextBoxColumn.DataPropertyName = "zjzfe";
+            this.zjzfeDataGridViewTextBoxColumn.HeaderText = "基金规模";
+            this.zjzfeDataGridViewTextBoxColumn.Name = "zjzfeDataGridViewTextBoxColumn";
+            this.zjzfeDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // fundBaseInfoBindingSource
+            // 
+            this.fundBaseInfoBindingSource.DataSource = typeof(Fund.FundBaseInfoView);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "symbol";
+            this.dataGridViewTextBoxColumn1.HeaderText = "基金代码";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // hisValueBindingSource
+            // 
+            this.hisValueBindingSource.DataSource = typeof(Fund.HisValue);
+            // 
+            // symbolXDataGridViewTextBoxColumn
+            // 
+            this.symbolXDataGridViewTextBoxColumn.DataPropertyName = "symbolX";
+            this.symbolXDataGridViewTextBoxColumn.HeaderText = "基金A";
+            this.symbolXDataGridViewTextBoxColumn.Name = "symbolXDataGridViewTextBoxColumn";
+            this.symbolXDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // symbolYDataGridViewTextBoxColumn
+            // 
+            this.symbolYDataGridViewTextBoxColumn.DataPropertyName = "symbolY";
+            this.symbolYDataGridViewTextBoxColumn.HeaderText = "基金B";
+            this.symbolYDataGridViewTextBoxColumn.Name = "symbolYDataGridViewTextBoxColumn";
+            this.symbolYDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // valueDataGridViewTextBoxColumn
+            // 
+            this.valueDataGridViewTextBoxColumn.DataPropertyName = "value";
+            this.valueDataGridViewTextBoxColumn.HeaderText = "相关性";
+            this.valueDataGridViewTextBoxColumn.Name = "valueDataGridViewTextBoxColumn";
+            this.valueDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // correlationBindingSource
+            // 
+            this.correlationBindingSource.DataSource = typeof(Fund.Correlation);
+            // 
+            // symbolDataGridViewTextBoxColumn1
+            // 
+            this.symbolDataGridViewTextBoxColumn1.DataPropertyName = "symbol";
+            this.symbolDataGridViewTextBoxColumn1.HeaderText = "编码";
+            this.symbolDataGridViewTextBoxColumn1.Name = "symbolDataGridViewTextBoxColumn1";
+            this.symbolDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // ratioDataGridViewTextBoxColumn
+            // 
+            this.ratioDataGridViewTextBoxColumn.DataPropertyName = "Ratio";
+            this.ratioDataGridViewTextBoxColumn.HeaderText = "夏普系数";
+            this.ratioDataGridViewTextBoxColumn.Name = "ratioDataGridViewTextBoxColumn";
+            this.ratioDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // sharpeRatioBindingSource1
+            // 
+            this.sharpeRatioBindingSource1.DataSource = typeof(Fund.SharpeRatio);
+            // 
+            // codeDataGridViewTextBoxColumn
+            // 
+            this.codeDataGridViewTextBoxColumn.DataPropertyName = "Code";
+            this.codeDataGridViewTextBoxColumn.HeaderText = "代码";
+            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
+            this.codeDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "日期";
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.dateDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // lowDataGridViewTextBoxColumn
+            // 
+            this.lowDataGridViewTextBoxColumn.DataPropertyName = "Low";
+            this.lowDataGridViewTextBoxColumn.HeaderText = "最低价";
+            this.lowDataGridViewTextBoxColumn.Name = "lowDataGridViewTextBoxColumn";
+            this.lowDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // volumeDataGridViewTextBoxColumn
+            // 
+            this.volumeDataGridViewTextBoxColumn.DataPropertyName = "Volume";
+            this.volumeDataGridViewTextBoxColumn.HeaderText = "成交量";
+            this.volumeDataGridViewTextBoxColumn.Name = "volumeDataGridViewTextBoxColumn";
+            this.volumeDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // stockBindingSource
+            // 
+            this.stockBindingSource.DataSource = typeof(Fund.Stock);
+            // 
+            // codeDataGridViewTextBoxColumn1
+            // 
+            this.codeDataGridViewTextBoxColumn1.DataPropertyName = "Code";
+            this.codeDataGridViewTextBoxColumn1.HeaderText = "代码";
+            this.codeDataGridViewTextBoxColumn1.Name = "codeDataGridViewTextBoxColumn1";
+            this.codeDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dateDataGridViewTextBoxColumn1
+            // 
+            this.dateDataGridViewTextBoxColumn1.DataPropertyName = "Date";
+            this.dateDataGridViewTextBoxColumn1.HeaderText = "日期";
+            this.dateDataGridViewTextBoxColumn1.Name = "dateDataGridViewTextBoxColumn1";
+            this.dateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // valueDataGridViewTextBoxColumn1
+            // 
+            this.valueDataGridViewTextBoxColumn1.DataPropertyName = "Value";
+            this.valueDataGridViewTextBoxColumn1.HeaderText = "RSI";
+            this.valueDataGridViewTextBoxColumn1.Name = "valueDataGridViewTextBoxColumn1";
+            this.valueDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.valueDataGridViewTextBoxColumn1.ToolTipText = "RSI";
+            // 
+            // rsiBindingSource
+            // 
+            this.rsiBindingSource.DataSource = typeof(Fund.Rsi);
+            // 
             // sharpeRatioBindingSource
             // 
             this.sharpeRatioBindingSource.DataSource = typeof(Fund.SharpeRatio);
@@ -1365,33 +1453,37 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fundBaseInfoBindingSource)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hisValueBindingSource)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.correlationBindingSource)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sharpeRatioBindingSource1)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fundBaseInfoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hisValueBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.correlationBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sharpeRatioBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rsiBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sharpeRatioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.computerBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -1505,12 +1597,6 @@
         private System.Windows.Forms.DataGridView dataGridView10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.DataGridViewTextBoxColumn beginDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn endDataGridViewTextBoxColumn;
@@ -1526,6 +1612,20 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn volumeDataGridViewTextBoxColumn;
         private System.Windows.Forms.TextBox textBox29;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.DataGridView dataGridView11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codeDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn valueDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.BindingSource rsiBindingSource;
     }
 }
 

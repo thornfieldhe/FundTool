@@ -9,6 +9,7 @@
 
 namespace Fund
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Net;
@@ -69,39 +70,46 @@ namespace Fund
                 Watchers = new List<FundWatcher>();
             }
 
-            foreach (var item in list)
+            try
             {
-                var wc = new WebClient();
-                var bHtml = wc.DownloadData(string.Format(config.Url, item));
-                var strHtml = Encoding.GetEncoding("GBK").GetString(bHtml);
-                var yesValue = Regex.Match(strHtml, "\"pre\":\"(.*?)\"").Groups[1].Value;
-                var value = Regex.Match(strHtml, "\"value\":\"(.*?)\"").Groups[1].Value;
-                if (yesValue == "" && value == "")
+                foreach (var item in list)
                 {
-                    continue;
-                }
-                var watcher = Watchers.FirstOrDefault(r => r.Symbol == item);
-                if (watcher == null)
-                {
-                    watcher = new FundWatcher() { Value = double.Parse(value), Symbol = item, AlertTimes = 0, YesterdayValue = double.Parse(yesValue) };
-                    Watchers.Add(watcher);
-                }
-                else
-                {
-                    watcher.Value = double.Parse(value);
-                    watcher.YesterdayValue = double.Parse(yesValue);
-                }
+                    var wc = new WebClient();
+                    var bHtml = wc.DownloadData(string.Format(config.Url, item));
+                    var strHtml = Encoding.GetEncoding("GBK").GetString(bHtml);
+                    var yesValue = Regex.Match(strHtml, "\"pre\":\"(.*?)\"").Groups[1].Value;
+                    var value = Regex.Match(strHtml, "\"value\":\"(.*?)\"").Groups[1].Value;
+                    if (yesValue == "" && value == "")
+                    {
+                        continue;
+                    }
+                    var watcher = Watchers.FirstOrDefault(r => r.Symbol == item);
+                    if (watcher == null)
+                    {
+                        watcher = new FundWatcher() { Value = double.Parse(value), Symbol = item, AlertTimes = 0, YesterdayValue = double.Parse(yesValue) };
+                        Watchers.Add(watcher);
+                    }
+                    else
+                    {
+                        watcher.Value = double.Parse(value);
+                        watcher.YesterdayValue = double.Parse(yesValue);
+                    }
 
-                var rate = (watcher.Value - watcher.YesterdayValue) * 100 / watcher.YesterdayValue;
-                if (rate >= double.Parse(config.UpRate) || rate <= double.Parse(config.DownRate))
-                {
-                    watcher.AlertTimes += 1;
-                }
+                    var rate = (watcher.Value - watcher.YesterdayValue) * 100 / watcher.YesterdayValue;
+                    if (rate >= double.Parse(config.UpRate) || rate <= double.Parse(config.DownRate))
+                    {
+                        watcher.AlertTimes += 1;
+                    }
 
-                if (watcher.AlertTimes >= int.Parse(config.AlertTime))
-                {
-                    result.Add($"{item}:{rate}{(rate >= double.Parse(config.UpRate) ? "↑" : "↓")}");
+                    if (watcher.AlertTimes >= int.Parse(config.AlertTime))
+                    {
+                        result.Add($"{item}:{rate}{(rate >= double.Parse(config.UpRate) ? "↑" : "↓")}");
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+
             }
 
             return result;

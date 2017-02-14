@@ -87,6 +87,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rsi.cs" />
     <Compile Include="SharpeRatio.cs" />
     <Compile Include="Stock.cs" />
     <Compile Include="Watcher.cs" />
@@ -114,6 +115,7 @@
     <None Include="Properties\DataSources\Correlation.datasource" />
     <None Include="Properties\DataSources\FundBaseInfo.datasource" />
     <None Include="Properties\DataSources\HisValue.datasource" />
+    <None Include="Properties\DataSources\Rsi.datasource" />
     <None Include="Properties\DataSources\SharpeRatio.datasource" />
     <None Include="Properties\DataSources\Stock.datasource" />
     <None Include="Properties\Settings.settings">

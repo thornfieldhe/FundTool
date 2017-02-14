@@ -171,6 +171,9 @@
   <data name="textBox24.Text" xml:space="preserve">
     <value>http://nufm.dfcfw.com/EM_Finance2014NumericApplication/JS.aspx?type=CT&amp;cmd=C._A&amp;sty=FCOIATA&amp;sortType=C&amp;sortRule=-1&amp;page=1&amp;pageSize=4000&amp;js=var%20quote_123%3d{rank:[(x)],pages:(pc)}&amp;token=7bc05d0d4c3c22ef9fca8c2a912d779c&amp;jsName=quote_123&amp;_g=0.8708387383060887</value>
   </data>
+  <metadata name="rsiBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>789, 55</value>
+  </metadata>
   <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>816, 17</value>
   </metadata>

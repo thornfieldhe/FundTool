@@ -43,11 +43,17 @@
                 this.textBox16.Text);
             this.dataGridView9.DataSource = Stock.Load();
             this.dataGridView10.DataSource = Stock.LoadHis();
+            //            this.dataGridView11.DataSource = Rsi.Comput(this.textBox30.Text, this.textBox27.Text);
 
-            this.timer1.Interval = int.Parse(WatcherConfig.Load().TimeSpan) * 1000;
-            this.timer2.Interval = 60000;
-            this.timer1.Start();
-            this.timer2.Start();
+            if (!(DateTime.Today.DayOfWeek == DayOfWeek.Saturday || DateTime.Today.DayOfWeek == DayOfWeek.Sunday)
+                && DateTime.Now.Hour >= 9 && DateTime.Now.Hour <= 15)
+            {
+                this.timer1.Interval = int.Parse(WatcherConfig.Load().TimeSpan) * 60000;
+                this.timer2.Interval = 60000;
+                this.timer1.Start();
+                this.timer2.Start();
+            }
+
         }
 
         /// <summary>
@@ -278,18 +284,12 @@
 
         private void button10_Click(object sender, EventArgs e)
         {
-            ShowLogin(() => this.dataGridView9.DataSource = Stock.GetList(this.textBox24.Text, this.textBox23.Text));
+            ShowLogin(() => this.dataGridView9.DataSource = Stock.GetList(this.textBox24.Text, this.textBox23.Text, this.textBox26.Text));
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            ShowLogin(() => this.dataGridView10.DataSource = Stock.GetHis(new[]
-                                                                              {
-                                                                                  this.textBox25.Text,
-                                                                                    this.textBox28.Text,
-                                                                                    this.textBox27.Text,
-                                                                                    this.textBox26.Text
-                                                                              }));
+            ShowLogin(() => this.dataGridView10.DataSource = Stock.GetHis(this.textBox25.Text));
         }
 
         private void ShowLogin(Action action)
@@ -305,13 +305,17 @@
         {
             if (!string.IsNullOrWhiteSpace(this.textBox29.Text))
             {
-                var result = Stock.Stocks.Where(r => r != null).ToList();
-                this.dataGridView10.DataSource = result.Where(r => r.Code == this.textBox29.Text.Trim());
+                this.dataGridView10.DataSource = Stock.Stocks.Where(r => r.Code == this.textBox29.Text.Trim()).ToList();
             }
             else
             {
                 this.dataGridView10.DataSource = Stock.Stocks;
             }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.dataGridView11.DataSource = Rsi.Comput(this.textBox30.Text, this.textBox27.Text);
         }
     }
 }
