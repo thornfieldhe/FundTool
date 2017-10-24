@@ -22,7 +22,7 @@ namespace Fund
     /// </summary>
     public class FundEntity : SingletonBase<FundEntity>
     {
-        private static readonly string fileName = "fundEntity.cfg";
+        private static readonly string fileName = "fundEntity.json";
 
         /// <summary>
         /// 基金总条数
@@ -32,7 +32,7 @@ namespace Fund
         /// <summary>
         /// 基金池
         /// </summary>
-        public List<string> Pool { get; set; }
+        public List<FundSimpleListItem> Pool { get; set; }
 
         public static void SaveConfig()
         {
